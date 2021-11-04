@@ -589,6 +589,9 @@ def replay():
         print("THANK YOU FOR PLAYING TIC TAC TOE!!!")
         print("\nSubscribe aupaxd")
 
+  sleep(2)
+  system('clear')
+
 
 replay()
 
