@@ -1,8 +1,12 @@
+# Colab Project Link
 # https://colab.research.google.com/drive/1jp4DKmncjwagkuh4msxZ3Y_9VsNXY_H5#scrollTo=qxewydBdNHYl
 # build armeabi-v7a via kivy & buildozer
 
+# add this codes
 !pip install buildozer
+#
 !pip install cython==0.29.19
+#
 !sudo apt-get install -y \
     python3-pip \
     build-essential \
@@ -19,11 +23,19 @@
     libavformat-dev \
     libavcodec-dev \
     zlib1g-dev
+#
 !sudo apt-get install -y \
     libgstreamer1.0 \
     gstreamer1.0-plugins-base \
     gstreamer1.0-plugins-good
+#
 !sudo apt-get install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev openssl libgdbm-dev libgdbm-compat-dev liblzma-dev libreadline-dev libncursesw5-dev libffi-dev uuid-dev libffi6
+#
 !sudo apt-get install libffi-dev
+#
 !buildozer init
+# upload python file with kivy codes
+# change title and package name in buildozer.spec
+# run code below to compile
 !buildozer -v android debug
+# result will be in the bin folder
