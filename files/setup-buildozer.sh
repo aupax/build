@@ -1,3 +1,6 @@
+# https://colab.research.google.com/drive/1jp4DKmncjwagkuh4msxZ3Y_9VsNXY_H5#scrollTo=qxewydBdNHYl
+# build armeabi-v7a via kivy & buildozer
+
 !pip install buildozer
 !pip install cython==0.29.19
 !sudo apt-get install -y \
