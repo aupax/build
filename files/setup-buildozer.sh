@@ -1,5 +1,5 @@
 # Colab Project Link
-# https://colab.research.google.com/drive/1jp4DKmncjwagkuh4msxZ3Y_9VsNXY_H5#scrollTo=qxewydBdNHYl
+# https://gist.github.com/aupax/bce4fb467dea4060dfbdfcda26417e24
 # build armeabi-v7a via kivy & buildozer
 
 # add this codes
