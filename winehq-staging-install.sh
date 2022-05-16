@@ -15,8 +15,8 @@ wine --version
 # configure winehq
 winecfg
 
-# RUN .EXE FILES
-# wine namefiles.exe
+# How to run .exe files
+# $ wine namefiles.exe
 # or you can just click .exe files like on windows
 
 # ©AUPAXYZ 2021
